@@ -1,0 +1,78 @@
+
+
+.paralax-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.navbar-container{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.navbar-container.visible{
+    transform: translateY(0);
+}
+.navbar-container.hidden{
+    transform: translateY(-100%);
+}
+
+.parallax-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(28, 28, 28, 0.7);
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#head-content{
+    margin-bottom: 2rem;
+}
+
+.left-content{
+    display:flex;
+    padding-left: 20%;
+    justify-content:left;
+    align-items:center;
+    gap: 2rem;
+    color:white;
+    z-index: 2;
+}
+
+.right-content{
+    display:flex;
+    padding-right: 20%;
+    gap: 2rem;
+    justify-content:right;
+    align-items:center;
+    color:white;
+    z-index: 2;
+}
+
+.width-text-content{
+    width: 400px;
+    word-wrap: break-word;
+}
+
+
+
+/* Анимация для плавного появления/исчезновения */
+@keyframes slideDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(0); }
+    to { transform: translateY(-100%); }
+}
+

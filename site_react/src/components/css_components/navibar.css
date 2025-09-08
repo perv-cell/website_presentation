@@ -1,0 +1,49 @@
+.animated-glow-navbar {
+    box-shadow: 0 0 10px 2px yellow;
+    background-color: 'transparent';
+    border: 1px solid #ffeb3b;
+    height: 80px;
+    min-height: 80px;
+    animation: glow 2s ease-in-out infinite alternate;
+    z-index: 100;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px 2px yellow;
+    }
+    to {
+        box-shadow: 0 0 30px 10px #ffeb3b;
+    }
+}
+
+.buttons-animation-navbar{
+    box-shadow: 0 0 10px 5px rgb(81, 81, 223);
+    border: 2px solid  rgb(3, 3, 235);
+    animation: animation-button 2s infinite alternate  ease-in-out;
+    z-index: 99;
+}
+
+@keyframes animation-button{
+    from {
+        box-shadow: 0 0 10px 5px rgb(81, 81, 223);
+    }
+    to {
+        box-shadow: 0 0 20xp 8px rgb(3, 3, 235);
+    }
+}
+
+.navibar_link:hover{
+    background-color:#eed702;
+    border-radius: 5px;
+    min-height: 40px;
+    box-shadow: 0 0 10px 5px #eed702;
+    border: 3px solid #eed702;
+}
+
+.button-style{
+    color: #f9f7f7;
+    background-color: rgb(11, 11, 11);
+    border-radius: 5px;
+    z-index: 1000;
+}

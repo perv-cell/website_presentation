@@ -1,0 +1,22 @@
+
+
+.header_title {
+        text-Shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        font-Size:1.7rem;
+        font-Weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+.header_discription {
+    color:aqua; 
+    text-Shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-Size: 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}  
+.subdiscription{
+    color:aqua;
+    text-Shadow: "1px 1px 2px rgba(0, 0, 0, 0.6)";
+    font-Size: "1.1rem";
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+        
